@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class MainCircle{
+
+public static void main(String[]args)
+{
+Scanner sc=new Scanner(System.in);
+
+System.out prinln("Enter the redious of circle");
+
+double r=sc.nextdouble();
+double ar=3.14*r*r;
+double cir= 2*314*r;
+
+System.out.println("redious of  circle:  "+r);
+System.out.println("area of circle:   "+ar);
+System.out.println("circumfrence of circle:  "+cir);
+
+}
+}
